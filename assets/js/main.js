@@ -242,7 +242,8 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
             type: 'iframe'
         });
 
-        $('a.gallery').magnificPopup({
+        $(".gallery-item").magnificPopup({
+            delegate: 'a',
             type: 'image',
             gallery: {
                 enabled: true,

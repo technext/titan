@@ -2083,6 +2083,11 @@ Google map
   overflow: hidden;
 }
 
+.gallery-image a.gallery {
+  position: relative;
+  display: block;
+}
+
 .gallery-image img {
   display: block;
   overflow: hidden;
